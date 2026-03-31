@@ -57,7 +57,7 @@
   for(var i=0;i<poolSize;i++){
     var el=document.createElement('div');
     el.className='trail-img';
-    el.style.background=colors[i%colors.length];
+    el.style.background='url(https://picsum.photos/seed/trail'+i+'/200/260) center/cover';
     document.body.appendChild(el);
     pool.push({el:el,active:false});
   }
