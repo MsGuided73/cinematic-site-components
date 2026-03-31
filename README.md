@@ -17,7 +17,7 @@ claude --add-dir /path/to/cinematic-sites
 Then invoke:
 
 ```
-/webcraft dark agency portfolio with scroll animation
+/cinematic-modules dark agency portfolio with scroll animation
 ```
 
 ## The 31 Cinematic Modules
@@ -68,10 +68,10 @@ Then invoke:
 | 24 | Typewriter Effect | Text types itself |
 | 26 | Gradient Stroke Text | Animated gradient on outlined text |
 
-## How Webcraft Works
+## How It Works
 
 1. You describe what you want (business type, mood, dark/light)
-2. Webcraft recommends 2-3 cinematic modules that work well together
+2. The skill recommends 2-3 cinematic modules that work well together
 3. Generates a single `index.html` combining them into a complete site
 
 It never picks more than 3 modules (cognitive overload) and follows strict combination rules to avoid conflicting effects.

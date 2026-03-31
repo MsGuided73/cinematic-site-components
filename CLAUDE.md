@@ -5,19 +5,19 @@ A library of 31 cinematic website modules + a Claude Code skill that picks and c
 ## Quick Start
 
 ```
-/webcraft dark SaaS landing page with scroll animation and feature section
+/cinematic-modules dark SaaS landing page with scroll animation and feature section
 ```
 
 ## What's Here
 
 - `*.html` — 31 standalone cinematic module demos (no build step, just open in browser)
 - `index.html` — Visual hub page with animated mini-demos for each module
-- `.claude/skills/webcraft/SKILL.md` — The skill file that powers `/webcraft`
+- `.claude/skills/cinematic-modules/SKILL.md` — The skill file that powers `/cinematic-modules`
 
 ## How It Works
 
 1. Describe what you want (business type, mood, theme)
-2. Webcraft picks 2-3 cinematic modules from the library
+2. The skill picks 2-3 cinematic modules from the library
 3. Generates a single `index.html` combining them into a complete site
 
 ## Module Categories
@@ -32,3 +32,7 @@ A library of 31 cinematic website modules + a Claude Code skill that picks and c
 - Claude Code with slash command support
 - A browser (for previewing)
 - That's it. No npm, no build, no frameworks.
+
+## Attribution
+
+© Created by Jay from RoboLabs. Learn more at [RoboNuggets](https://robonuggets.com)

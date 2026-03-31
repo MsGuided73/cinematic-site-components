@@ -1,30 +1,30 @@
 ---
-name: webcraft
-description: Cinematic module picker + combiner from the Cinematic Sites Framework. Describe what kind of site you want → recommends 2-3 cinematic modules → generates a single HTML file combining them. 31 modules included. Triggers on "webcraft", "cinematic site", "build me a site", "combine modules", "pick modules for".
+name: cinematic-modules
+description: Cinematic module picker + combiner from the Cinematic Sites Framework. Describe what kind of site you want → recommends 2-3 cinematic modules → generates a single HTML file combining them. 31 modules included. Triggers on "cinematic modules", "cinematic site", "build me a site", "combine modules", "pick modules for".
 ---
 
-# Webcraft — Cinematic Sites Framework
+# Cinematic Modules — Cinematic Sites Framework
 
 Turn a description into a premium single-file website by picking and combining interaction modules from the built-in library.
 
 ## How to Invoke
 
 ```
-/webcraft dark SaaS landing page with scroll animation and feature section
+/cinematic-modules dark SaaS landing page with scroll animation and feature section
 ```
 
 ```
-/webcraft bakery website, warm palette, hero video feel
+/cinematic-modules bakery website, warm palette, hero video feel
 ```
 
 ```
-/webcraft portfolio for a photographer, lots of images, playful
+/cinematic-modules portfolio for a photographer, lots of images, playful
 ```
 
 With specific modules:
 
 ```
-/webcraft --modules "text-mask, sticky-stack, marquee" --theme dark --name "Acme Corp"
+/cinematic-modules --modules "text-mask, sticky-stack, marquee" --theme dark --name "Acme Corp"
 ```
 
 ---
@@ -196,11 +196,6 @@ Tell the user:
 | 19 | Glitch Effect | `glitch-effect.html` | RGB channel split on hover |
 | 24 | Typewriter Effect | `typewriter.html` | Text types letter by letter, cycling/code/chat variants |
 | 26 | Gradient Stroke Text | `gradient-stroke.html` | Animated gradient along outlined text |
-
-### Special
-| ID | Name | What It Does |
-|---|---|---|
-| 00 | Scroll Frame Sequence | Video frames tied to scroll position (requires frame extraction) |
 
 ---
 
